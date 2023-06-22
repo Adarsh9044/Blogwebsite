@@ -1,0 +1,140 @@
+*{
+  margin:0;
+  padding:0;
+}
+.App{
+  display:flex;
+  justify-content: left;
+}
+.blog-c{
+  width:900px;
+  border: 2px solid black;
+  margin: 10px;
+  padding:10px;
+  border-radius: 20px;
+}
+.sec1title{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+.sec1title .title{
+font-size: 40px;
+padding: 0px 30px;
+}
+
+.sec1title .creater{
+background-color: pink;
+color: black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 600;
+padding: 5px 5px;
+border-radius: 10px;
+}
+hr {
+  margin: 20px 0px;
+  width:500px;
+  border:none;
+  border-top: 3px dashed blue;
+  display:block;
+  margin:auto;
+}
+
+.sec2desc{
+  display: flex;
+  margin-top: 20px;
+}
+.sec2desc img{
+  width:200px;
+  height: fit-content;
+  padding:0px 10px;
+  }
+  .sec2desc p{
+    display: flex;
+  }
+
+ .sec3date{
+  display: flex;
+  justify-content: flex-end;
+ }
+ .sec3date p{
+background-color: aqua;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: black;
+padding: 5px;
+border-radius: 10px;
+margin-top: 10px;
+ }
+
+ .addblog-form{
+  position: fixed;
+  top:0px;
+  right:0px;
+  background-color: antiquewhite;
+  margin: 10px;
+  padding: 10px;
+  width: 500px;
+  border-radius: 10px;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .addblog-form p{
+font-size: 40px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 600;
+color:blueviolet;
+ }
+ .addblog-form form{
+display: flex;
+flex-direction: column;
+width: 100%;
+ }
+
+ .addblog-form input  {
+  background-color: white;
+  font-size:15px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+ }
+
+ .addblog-form  textarea {
+  background-color: white;
+  font-size:15px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+ }
+ .addblog-form label {
+  color:purple;
+  font-size:15px;
+  padding: 5px;
+ 
+ }
+.btn-container{
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 20px;
+  
+}
+
+.btn-container button {
+width: min-content;
+font-size: 15px;
+font-family: 'Times New Roman', Times, serif;
+padding: 5px;
+border-radius: 10px;
+background-color: black;
+color:wheat;
+border: none;
+margin-top: 10px;
+}
+.btn-container button:hover{
+  cursor: pointer;
+  color:red;
+}
+
